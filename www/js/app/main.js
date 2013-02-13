@@ -19,5 +19,29 @@ define(function (require) {
         require('./uiNetwork')();
         require('./uiAppCache')();
         require('./uiWebAppInstall')();
+
+        var activateScreen = function(path){
+            console.log("hash:"+window.location.hash);
+            switch(window.location.hash){
+                case '#projects':
+                case '#about':
+                case '#news':
+                    $('.screen').hide();
+                    $(window.location.hash).show();
+                    $('ul.nav>li').removeClass();
+                    $("[href="+window.location.hash+"]").parent().addClass('active')
+                    break;
+                default:
+                    $('#news').show()
+                    $('ul.nav>li').removeClass();
+                    $("[href=#news]").parent().addClass('active')
+                    break;
+            }
+        }
+
+        window.addEventListener("hashchange", function(e) {
+            activateScreen(location.pathname);
+        }, false);
+        activateScreen();
     });
 });
