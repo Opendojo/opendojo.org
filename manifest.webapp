@@ -1,7 +1,7 @@
 {  
   "version": "1.0",  
-  "name": "Test GH App",  
-  "description": "Neat GH hosted App",  
+  "name": "Opendojo",  
+  "description": "Opendojo webapp",  
   "icons": {  
     "16": "/img/icon-16.png",  
     "48": "/img/icon-48.png",  
