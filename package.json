@@ -1,6 +1,6 @@
 {
-  "name": "p",
-  "version": "0.0.0",
+  "name": "opendojo.org",
+  "version": "0.0.1",
   "amd": {
     "baseUrl": "www/js/lib"
   },
