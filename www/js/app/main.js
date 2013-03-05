@@ -19,6 +19,7 @@ define(function (require) {
         require('./uiNetwork')();
         require('./uiAppCache')();
         require('./uiWebAppInstall')();
+        require('./video');
 
         var activateScreen = function(path){
             console.log("hash:"+window.location.hash);
@@ -29,12 +30,12 @@ define(function (require) {
                     $('.screen').hide();
                     $(window.location.hash).show();
                     $('ul.nav>li').removeClass();
-                    $("[href="+window.location.hash+"]").parent().addClass('active')
+                    $("[href="+window.location.hash+"]").parent().addClass('active');
                     break;
                 default:
                     $('#news').show()
                     $('ul.nav>li').removeClass();
-                    $("[href=#news]").parent().addClass('active')
+                    $("[href=#news]").parent().addClass('active');
                     break;
             }
         }
@@ -43,5 +44,6 @@ define(function (require) {
             activateScreen(location.pathname);
         }, false);
         activateScreen();
+
     });
 });
