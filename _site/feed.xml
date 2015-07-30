@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 30 Jul 2015 17:34:07 +0200</pubDate>
+    <lastBuildDate>Thu, 30 Jul 2015 17:34:07 +0200</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>The Business Value Game</title>
+        <description>&lt;h2 id=&quot;goal-of-the-game&quot;&gt;Goal of the Game&lt;/h2&gt;
+
+&lt;p&gt;This game will help you define Business Value on stories.&lt;/p&gt;
+
+&lt;h2 id=&quot;material&quot;&gt;Material&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[x] Poker Coins (At least 30 x 5 different colors =&amp;gt; 150)&lt;/li&gt;
+  &lt;li&gt;[x] User Stories&lt;/li&gt;
+  &lt;li&gt;[x] Post-it&lt;/li&gt;
+  &lt;li&gt;[x] Pen&lt;/li&gt;
+  &lt;li&gt;[x] A huge table&lt;/li&gt;
+  &lt;li&gt;[x] Sticky dots (one color flashy)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;duration&quot;&gt;Duration&lt;/h2&gt;
+
+&lt;p&gt;The game duration is around 45 minutes (depending on the different discussion)&lt;/p&gt;
+
+&lt;h2 id=&quot;target-audience&quot;&gt;Target audience&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[x] The Product Owner (PO) and some Stakeholders&lt;/li&gt;
+  &lt;li&gt;[x] Some team members (Analyst, UX, Dev…)&lt;/li&gt;
+  &lt;li&gt;[x] The game master&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;pre-requisite&quot;&gt;Pre-requisite&lt;/h2&gt;
+
+&lt;p&gt;The Game Master will have to write 4 post-it and put 20+10 Poker Coins on them:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;“Increase the audience” + Piles of 31 (20 + 10 + 1) Red Poker Coins &lt;/li&gt;
+  &lt;li&gt;“Increase the revenue” + Piles of 31 (20 + 10 + 1) Blue Poker Coins &lt;/li&gt;
+  &lt;li&gt;“Increase the fame” + Piles of 31 (20 + 10 + 1) White Poker Coins &lt;/li&gt;
+  &lt;li&gt;“Reduce the cost” + Piles of 31 (20 + 10 + 1) Black Poker Coins &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The GM makes a deck of User Stories (US).&lt;/p&gt;
+
+&lt;h2 id=&quot;first-phase-ordering-the-stories&quot;&gt;First phase: Ordering the Stories&lt;/h2&gt;
+
+&lt;p&gt;The PO read them one at the time.&lt;/p&gt;
+
+&lt;p&gt;For every story:
+1. The PO can ask the team to enhance, rephrase the story
+2. The PO will have to put the story on the table following is feeling of what should be done first&lt;/p&gt;
+
+&lt;h2 id=&quot;second-phase-time-to-bet-4-rounds&quot;&gt;Second Phase: Time to bet (4 rounds)&lt;/h2&gt;
+
+&lt;p&gt;The Game is in 4 round.&lt;/p&gt;
+
+&lt;p&gt;For every round&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The Game Master select a piles of poker coins and gives 20 to the PO/Stakeholders team and 10 to the remaining team members.&lt;/li&gt;
+  &lt;li&gt;The Game Master explains to the team that he will now put coins on the User Stories according to the Poker Coins color Theme (Increasing audience, revenue, fame, reducing cost)…&lt;/li&gt;
+  &lt;li&gt;The PO/Stakeholder team put the 20 Poker Coins according to the current theme&lt;/li&gt;
+  &lt;li&gt;The Rest of the Team put the 10 Poker Coins according to the current theme&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;third-phase&quot;&gt;Third phase&lt;/h2&gt;
+
+&lt;p&gt;The Game Master Prepare 20 additional Green Poker Coins&lt;/p&gt;
+
+&lt;p&gt;The Game Master ask the everyone what they think of the priority they setup compared to the Business Value they setup?&lt;/p&gt;
+
+&lt;p&gt;If it is exactly aligned (First US as the highest amount of Poker Coins) then nothing should be done and you can skip to [4th Phase][#Fourth Phase]&lt;/p&gt;
+
+&lt;p&gt;If it is not, ask:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Why do you have all those stories upward with no Poker Coins?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of the time it is because they are obligatory.&lt;/p&gt;
+
+&lt;p&gt;The Obligation to do something is not always directly valuable&lt;/p&gt;
+
+&lt;h2 id=&quot;sourceinspiration&quot;&gt;Source/Inspiration&lt;/h2&gt;
+
+&lt;p&gt;Most of the idea is from &lt;a href=&quot;http://www.agile42.com/en/agile-coaching-company/agile-scrum-tools/business-value-game/&quot;&gt;agile42 Business Value Game&lt;/a&gt; and reading Pascal Van Cauwenbergh post’s about &lt;a href=&quot;http://blog.nayima.be/2010/01/02/what-is-business-value-then/&quot;&gt;Business value&lt;/a&gt;, &lt;a href=&quot;http://blog.nayima.be/2009/12/30/how-do-you-estimate-the-business-value-of-user-stories/&quot;&gt;How to Estimate business value&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 30 Jul 2015 18:47:04 +0200</pubDate>
+        <link>/agile,/scrum/2015/07/30/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/agile,/scrum/2015/07/30/welcome-to-jekyll.html</guid>
+        
+        
+        <category>agile,</category>
+        
+        <category>scrum</category>
+        
+      </item>
+    
+  </channel>
+</rss>
