@@ -1,9 +1,9 @@
 # Site settings
-title: Opendojo > A path to knowledge sharing
-email: sebastien.barbieri@opendojo.org
-description: > One way to deliver added value to your meeting.
+title: "Opendojo > A path to knowledge sharing"
+email: "sebastien.barbieri@opendojo.org"
+description: > "One way to deliver added value to your meeting.
   If you are playing bingo, watching your phone or sleeping during meeting, maybe it's time for a change.
-  You will find here some ideas to prepare your next meeting and ensure that the time spent is usefuly spent.
+  You will find here some ideas to prepare your next meeting and ensure that the time spent is usefuly spent."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://opendojo.org" # the base hostname & protocol for your site
 twitter_username: opendojo
