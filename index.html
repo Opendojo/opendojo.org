@@ -1,66 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/app.css" rel="stylesheet">
-</head>
-<body>
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
+---
+layout: default
+---
 
-                <a class="brand" href="#">Opendojo.org</a>
-                <ul class="nav">
-                    <li class="active">
-                        <a href="#news">News</a>
-                    </li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
+<div class="home">
 
-                <ul class="nav pull-right">
-                    <li class="dropdown">
-                        <button class="webapp-install btn btn-primary"
-                                style="display: none;">Install</button>
-                   </li>
-                </ul>
+  <h1 class="page-heading">Posts</h1>
 
-             </div>
-        </div>
-    </div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-    <div class="container">
-        <div class="screen" id="news">
-            <h1>Opendojo.org</h1>
-            <h2>News</h2>
-            <h3>2013-03-05: Petit compte rendu du #MWC13</h3>
-            <div class="hero-unit">
-                <div id="video">
-                    <div id="googlemap">
-                    </div>
-                </div>
-                <div id="footnotediv"></div>
-            </diV
-            <div>
-                <div style="display: none;" class="webapp-error alert alert-block">
-                    <a class="close" data-dismiss="alert">×</a>
-                    <h4 class="alert-heading">Install error</h4>
-                    <span class="webapp-error-details"></span>
-                </div>
-            </div>
-        </div>
-        <div class="screen" id="projects">
-            <h1>Coffeescript 101</h1>
-            <div>
-            <a href="http://www.slideshare.net/sebastienbarbieri/mvc-app-101" title="Mvc app in coffeescript 101 part 1/3" target="_blank">Mvc app in coffeescript 101 part 1/3</a> </strong> from <strong><a href="http://www.slideshare.net/sebastienbarbieri" target="_blank">Sébastien Barbieri</a></strong> </div>
-        </div>
-        <div class="screen" id="about">
-            <h1>About</h1>
-            <p>powered by sbw.be</p>
-        </div>
-    </div>
-    <!-- Load the main app module via the module loader -->
-    <script async data-main="js/app" src="js/app.js" charset="utf-8"></script>
-</body>
-</html>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

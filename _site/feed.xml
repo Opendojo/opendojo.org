@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Jul 2015 17:34:07 +0200</pubDate>
-    <lastBuildDate>Thu, 30 Jul 2015 17:34:07 +0200</lastBuildDate>
+    <title>Opendojo</title>
+    <description>Open source methodology.  
+</description>
+    <link>http://opendojo.org/</link>
+    <atom:link href="http://opendojo.org/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 05 Aug 2015 00:09:57 +0200</pubDate>
+    <lastBuildDate>Wed, 05 Aug 2015 00:09:57 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -96,8 +97,8 @@
 
 </description>
         <pubDate>Thu, 30 Jul 2015 18:47:04 +0200</pubDate>
-        <link>/agile,/scrum/2015/07/30/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/agile,/scrum/2015/07/30/welcome-to-jekyll.html</guid>
+        <link>http://opendojo.org/agile,/scrum/2015/07/30/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://opendojo.org/agile,/scrum/2015/07/30/welcome-to-jekyll/</guid>
         
         
         <category>agile,</category>
